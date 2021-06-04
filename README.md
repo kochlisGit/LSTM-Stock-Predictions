@@ -3,10 +3,10 @@ Prediction of Stock price using Recurrent Neural Network (RNN) models. In this p
 
 # Models
 I have used some of the most popular RNN models that are used in the today's industry:
-1. LSTM
-2. GRU
-3. Bidirectional LSTM
-4. Combination of Bidirection GRU with LSTM
+1. LSTM: https://arxiv.org/pdf/1909.09586.pdf
+2. GRU: https://arxiv.org/pdf/1412.3555.pdf
+3. Bidirectional LSTM: https://arxiv.org/pdf/1802.00889.pdf
+4. **Proposed Method: Deep Bidirection GRU with LSTM on Output**
 
 # Dataset
 The source of my datasets is Yahoo's finance website: https://finance.yahoo.com/
@@ -35,12 +35,15 @@ The RNN were implemented using Python. The libraries that were used are the foll
 Don't trust prediction models for stock prediction. The predictions that are made are based on patterns that are found in the dataset. However, It's impossible to know the exact "Open" value of a stock for the next day. What You should be interested in is the behavior of the price (e.g. If the price is rising up or falling down).
 
 Google's Prediction
+
 ![](https://github.com/kochlisGit/Stocks-Prediction/blob/main/google/plots/google_bgru_lstm_plot.png)
 
 Tesla's Prediciton
+
 ![](https://github.com/kochlisGit/Stocks-Prediction/blob/main/tesla/plots/tesla_bgru_lstm_plot.png)
 
 Alpha Bank's Prediction
+
 ![](https://github.com/kochlisGit/Stocks-Prediction/blob/main/alpha-bank/alpha_predict_plot.png)
 
 
