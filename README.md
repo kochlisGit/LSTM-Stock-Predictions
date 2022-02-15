@@ -31,8 +31,7 @@ The RNN were implemented using Python. The libraries that were used are the foll
 5. Tensorflow
 6. Tensorflow Addons
 
-# !..Important..!
-Don't trust prediction models for stock prediction. The predictions that are made are based on patterns that are found in the dataset. However, It's impossible to know the exact "Open" value of a stock for the next day. What You should be interested in is the behavior of the price (e.g. If the price is rising up or falling down).
+# Results
 
 Google's Prediction
 
