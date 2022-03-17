@@ -1,4 +1,4 @@
-# Stocks-Prediction
+# Stock-Predictions
 Prediction of Stock price using Recurrent Neural Network (RNN) models. In this project, I compare how different well-optimized RNN models perform at stocks prediction. 
 
 # Models
